@@ -1,6 +1,8 @@
+#https://python-visualization.github.io/folium/latest/index.html
 import folium
 from IPython.display import display
 import folium.map
+
 
 # "latitude": 43.0393, "longitude": -87.90647,
 
