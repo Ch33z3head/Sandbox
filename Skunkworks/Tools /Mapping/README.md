@@ -86,6 +86,7 @@ IP, City, Country, Organization, Location
 203.0.113.42, Another City, AN, Another Org, 34.0522,-118.2437
 ```
 Example Map Generation of IP locations:
+
 <img width="739" alt="exampleMap" src="https://github.com/user-attachments/assets/b962d641-8227-485b-8504-f891748ad0ac">
 
 ## License
