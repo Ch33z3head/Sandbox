@@ -50,7 +50,7 @@ def main():
                 writer.writerow([geo_data['ip'], geo_data['city'], geo_data['country'], geo_data['org'], geo_data['loc']])
                 seen.add((geo_data['ip'], geo_data['city'], geo_data['country'], geo_data['org'], geo_data['loc']))
 
-                # Extract latitude and longitude from the 'loc' field
+                # Extract latitude and longitude from obj
                 loc = geo_data['loc'].split(',')
                 if len(loc) == 2:
                     latitude, longitude = float(loc[0]), float(loc[1])
